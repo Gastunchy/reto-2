@@ -9,11 +9,11 @@ process.on('SIGTERM', () => {
 
 export default {
     database: {
-        url: process.env.DATABASE_URL || 'mongodb://localhost:27017',
+        url: process.env.DATABASE_URL || 'mongodb://gaston:gastunchy@mongodb:27017',
         name: process.env.DATABASE_NAME || 'TopicstoreDb'
     },
     app: {
-        host: process.env.HOST || 'localhost',
+        host: process.env.HOST || 'backend',
         port: +process.env.PORT || 5000
     }
 }
