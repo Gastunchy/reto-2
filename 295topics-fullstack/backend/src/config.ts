@@ -13,7 +13,7 @@ export default {
         name: process.env.DATABASE_NAME || 'TopicstoreDb'
     },
     app: {
-        host: process.env.HOST || 'backend',
-        port: +process.env.PORT || 5000
+        host: process.env.HOST || 'frontend',
+        port: +process.env.PORT || 3000
     }
 }
